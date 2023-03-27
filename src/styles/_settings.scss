@@ -1,0 +1,18 @@
+// settings.scss
+@import 'variables';
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding:  0 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+// settings.scss
+.content-wrapper {
+  padding: 0 180px;
+  background-image: $background-image;
+  min-height: 100vh;
+}
